@@ -1,0 +1,43 @@
+BoxLayout:
+    orientation:'vertical'
+
+    MDToolbar:
+        title: 'Hello World em várias linguagens'
+        md_bg_color: .2, .2, .2, 1
+        specific_text_color: 1, 1, 1, 1
+
+    MDBottomNavigation:
+        panel_color: .2, .2, .2, 1
+
+        MDBottomNavigationItem:
+            name: 'screen 1'
+            text: 'Python'
+            icon: 'language-python'
+
+            MDLabel:
+                text: '    print("Hello World!")'
+                halign: 'left'
+                font_name: 'Consola'
+                font_size: 24
+
+        MDBottomNavigationItem:
+            name: 'screen 2'
+            text: 'C++'
+            icon: 'language-cpp'
+
+            MDLabel:
+                text: '    int main() {\n        std::cout << "Hello World!";\n        return 0;\n    }'
+                halign: 'left'
+                font_name: 'Consola'
+                font_size: 24
+
+        MDBottomNavigationItem:
+            name: 'screen 3'
+            text: 'Java'
+            icon: 'language-java'
+
+            MDLabel:
+                text: """    class HelloWorld {\n      public static void main(String[] args) {\n         System.out.println("Hello World!");\n        }\n    }"""
+                font_name: 'Consola'
+                font_size: 24
+                
