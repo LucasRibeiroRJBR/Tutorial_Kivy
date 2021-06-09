@@ -4,7 +4,8 @@ from kivy.uix.widget import Widget
 class MainWidget(Widget):
     pass
 
-class button_label(App):  # Nome da classe = arquivo .kv
+# Nome da classe = arquivo .kv
+class button_label(App):
     pass
 
 button_label().run()
